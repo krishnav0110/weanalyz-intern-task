@@ -1,0 +1,15 @@
+.navbar-con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: var(--primary-color-1);
+}
+
+.navbar-title {
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+    color: white;
+}

@@ -1,0 +1,25 @@
+.dashboard-feedback-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: var(--primary-color-1);
+}
+
+.dashboard-feedback-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.dashboard-feedback-rating-con {
+    display: flex;
+}
+
+.dashboard-feedback-rating-img {
+    width: 40px;
+    height: 40px;
+}

@@ -1,0 +1,32 @@
+.dashboard-team-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 20px;
+    margin: 20px;
+    background-color: var(--primary-color-1);
+}
+
+.dashboard-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+
+.dashboard-team-img {
+    width: 100%;
+    height: 150px;
+}
+
+.dashboard-team-count {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--text-color-1);
+}
+
+.dashboard-team-title {
+    text-align: center;
+    font-size: 1.3rem;
+}

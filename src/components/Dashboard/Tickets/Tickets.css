@@ -1,0 +1,28 @@
+.dashboard-tickets-con {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 20px;
+}
+
+.dashboard-ticket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 10px 10px #9EA6A1;
+}
+
+.dashboard-ticket-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.dashboard-ticket-count {
+    font-size: 5rem;
+    font-weight: 400;
+    margin: 50px 0;
+    color: var(--text-color-1);
+}

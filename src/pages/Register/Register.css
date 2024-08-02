@@ -1,0 +1,69 @@
+.register-page-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color-1);
+}
+
+.register-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: var(--primary-color-2);
+}
+
+.register-title {
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
+    margin: 10px 20px;
+}
+
+.register-subtitle {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 10px 20px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.register-input {
+    font-size: 1.2rem;
+    width: 350px;
+    padding: 10px;
+}
+
+.register-btn {
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: fit-content;
+    padding: 10px 60px;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--button-color-2);
+}
+
+.register-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    width: 100%;
+}
+
+.register-forget-pass {
+    color: red;
+}
+
+.register-signup-link {
+    font-size: 1.2rem;
+}

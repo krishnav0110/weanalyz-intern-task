@@ -1,0 +1,10 @@
+.page-con {
+    display: grid;
+    grid-template-rows: 70px auto 50px;
+    height: 100vh;
+}
+
+.main-con {
+    display: grid;
+    grid-template-columns: 200px auto;
+}
